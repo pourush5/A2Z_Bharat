@@ -1,0 +1,80 @@
+{
+  "version": "v1.1.0",
+  "entity": {
+    "type": "individual",
+    "role": "maintainer",
+    "name": "Pourush Pandey",
+    "email": "pourush5002@gmail.com",
+    "description": "Founder and lead developer of A2Z Bharat, engineering localized, offline-first digital public goods across India.",
+    "webpageUrl": {
+      "url": "https://pourushpandey.vercel.app"
+    }
+  },
+  "projects": [
+    {
+      "guid": "a2zbharat-kangto",
+      "name": "Kangto",
+      "description": "Offline-first mountain safety SOS, disaster helpline connectivity, and ecological awareness tracking for remote regions.",
+      "repositoryUrl": {
+        "url": "https://github.com/pourush5/Kangto"
+      },
+      "webpageUrl": {
+        "url": "https://play.google.com/store/apps/details?id=com.pourush.kangto"
+      },
+      "licenses": [
+        "spdx:Apache-2.0"
+      ],
+      "tags": [
+        "android",
+        "offline-first",
+        "disaster-relief",
+        "kotlin"
+      ]
+    },
+    {
+      "guid": "a2zbharat-saakh",
+      "name": "Saakh",
+      "description": "Offline-first digital ledger utilizing hardware-backed ECDSA signatures to eliminate wage theft across informal labor markets.",
+      "repositoryUrl": {
+        "url": "https://github.com/pourush5/Saakh"
+      },
+      "webpageUrl": {
+        "url": "https://play.google.com/store/apps/details?id=com.pourush.saakh"
+      },
+      "licenses": [
+        "spdx:Apache-2.0"
+      ],
+      "tags": [
+        "android",
+        "cryptography",
+        "offline-first",
+        "ecdsa",
+        "civic-tech"
+      ]
+    }
+  ],
+  "funding": {
+    "plans": [
+      {
+        "guid": "a2zbharat-milestone-2026",
+        "status": "active",
+        "name": "A2Z Bharat Ecosystem Expansion & Field Pilots",
+        "description": "Quarterly Milestones: Q1: Conduct security review on Saakh's Android Keystore ECDSA implementation and run an initial 30-worker informal labor pilot. Q2: Implement low-overhead web-of-trust anchor infrastructure for legal aid verification; expand Kangto offline disaster mapping. Q3: Community field trials, Hindi/regional voice accessibility improvements, and publish a FOSS United forum deep dive. Q4: State-specific R&D, ideation, and architecture setup for Chapter C onwards.",
+        "amount": 300000,
+        "currency": "INR",
+        "frequency": "one-time",
+        "channels": [
+          "maintainer-portal"
+        ]
+      }
+    ],
+    "channels": [
+      {
+        "guid": "maintainer-portal",
+        "type": "other",
+        "address": "https://pourushpandey.vercel.app",
+        "description": "Maintainer Project Portal and Direct Sponsorship Inquiries (Email preferred)"
+      }
+    ]
+  }
+}
